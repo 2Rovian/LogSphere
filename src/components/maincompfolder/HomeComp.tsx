@@ -48,13 +48,6 @@ function HomeComp() {
                         </Link>
                     )
                 }
-                {/* <button className="primary-outline">Lain</button> */}
-                {/* { label: "some_button", path: "/", id: 6 } */}
-                {/* <button className="primary-outline hover:bg-[#4a4a4a] hover:text-[#e9e9e9]">Movies</button>
-        <button className="primary-outline">Series</button>
-        <button className="primary-outline">Books</button>
-        <button className="primary-outline">Games</button>
-        <button className="primary-outline">Anime</button> */}
             </div>
 
             <p className="text-sm text-[#6a6a6a] text-left">

@@ -1,23 +1,23 @@
 import HomeComp from "./maincompfolder/HomeComp";
+import { useLocation } from "react-router-dom";
+import MoviesComp from "./maincompfolder/MoviesComp";
 
 function MainComp() {
-  return (
-    <main className="mx-7 my-10 px-4 py-6 custom-border surface-color flex flex-col items-center text-center gap-4">
-      {/* <h2 className="text-2xl font-bold text-[#3a3a3a]">
-        Track everything you watch, read or play
-      </h2>
+    const url_path: string = useLocation().pathname;
+    let content;
+    switch(url_path) {
+        case "/movies":
+            content = <MoviesComp />
+            break;
+        default:
+            content = <HomeComp />
+    }
 
-      <p className="text-[#5a5a5a] max-w-xl">
-        LogSphere lets you keep track of movies, series, books, games and more.
-        Build your personal media history in one place.
-      </p>
-
-      <button className="mt-4 px-6 py-3 primary-color text-color font-medium cursor-pointer">
-        Start logging media
-      </button> */}
-      <HomeComp />
-    </main>
-  );
+    return (
+        <main className="mx-7 my-10 px-4 py-6 custom-border surface-color flex flex-col items-center text-center gap-4">
+            {content}
+        </main>
+    );
 }
 
 export default MainComp;
