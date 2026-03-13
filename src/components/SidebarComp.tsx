@@ -1,7 +1,7 @@
 
 function SidebarComp() {
   return (
-    <aside className="mx-7 md:mx-0 mb-48 md:mb-0 md:mt-10 md:mr-7 flex flex-col px-4 py-4 md:px-2 md:py-2 custom-border surface-color gap-0 z-10 h-fit">
+    <aside className="mx-7 md:mx-0 mb-10 md:mb-0 md:mt-10 md:mr-7 flex flex-col px-4 py-4 md:px-2 md:py-2 custom-border surface-color gap-0 z-10 h-fit">
 
       {/* mx-7 my-10 */}
       {/* <aside className="mr-7 hidden lg:flex flex-col w-60 my-10 px-4 py-2 custom-border surface-color gap-6"></aside> */}

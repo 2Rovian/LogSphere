@@ -2,6 +2,7 @@ import MainComp from "../components/MainComp";
 import HeaderComp from "../components/HeaderComp";
 import FooterComp from "../components/FooterComp";
 import SidebarComp from "../components/SidebarComp";
+import UpdatesComp from "../components/UpdatesComp";
 
 function HomePage() {
 
@@ -11,10 +12,19 @@ function HomePage() {
         <div className="flex-1">
           <HeaderComp />
           <MainComp />
+          <div className="hidden md:block">
+            <UpdatesComp />
+          </div>
         </div>
 
         <SidebarComp />
+
+        <div className="md:hidden z-10 mb-48">
+          <UpdatesComp />
+        </div>
+
       </div>
+      
       <FooterComp />
 
     </div>
