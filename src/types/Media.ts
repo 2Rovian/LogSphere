@@ -1,4 +1,4 @@
-type MediaType = "movie" | "book" | "series" | "games" | "anime";
+type MediaType = "movie" | "book" | "games" | "anime";
 
 export interface MediaEntry {
   id: string;

@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-type MediaType = "movie" | "book" | "series" | "games" | "anime";
+type MediaType = "movie" | "book" | "games" | "anime";
 
 type StatusType = "planned" | "consuming" | "completed";
 
@@ -38,7 +38,6 @@ function MediaFormComp({ closeModal }: closeModalProps) {
           >
             <option value="movie">Movie</option>
             <option value="book">Book</option>
-            <option value="series">Series</option>
             <option value="games">Game</option>
             <option value="anime">Anime</option>
           </select>

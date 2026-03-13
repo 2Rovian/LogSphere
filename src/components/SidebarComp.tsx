@@ -33,11 +33,11 @@ function SidebarComp() {
           <span>Movies</span>
           <span>0</span>
         </div>
-
+{/* 
         <div className="flex justify-between text-[#5a5a5a]">
           <span>Series</span>
           <span>0</span>
-        </div>
+        </div> */}
 
         <div className="flex justify-between text-[#5a5a5a]">
           <span>Books</span>

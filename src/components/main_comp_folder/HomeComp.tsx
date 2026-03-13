@@ -11,11 +11,9 @@ function HomeComp() {
     const buttons_array: buttons_array_props[] = 
     [
         { label: "Movies", path: "/movies", id: 1 },
-        { label: "Series", path: "/series", id: 2 },
         { label: "Books", path: "/books", id: 3 },
         { label: "Games", path: "/games", id: 4 },
         { label: "Anime", path: "/anime", id: 5 },
-        { label: "Lain", path: "/lain", id: 5 }
     ]
 
     return (
@@ -28,7 +26,7 @@ function HomeComp() {
 
                 <p className="text-[#5a5a5a] leading-relaxed">
                     LogSphere is a place to keep track of the media you consume.
-                    Organize movies, series, books, games and anime in your personal log.
+                    Organize movies, books, games and anime in your personal log.
                 </p>
 
                 <p className="text-[#5a5a5a] leading-relaxed">

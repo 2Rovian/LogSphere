@@ -14,7 +14,6 @@ function HeaderComp() {
     const nav_array: nav_array_props[] = [
         { label: "Home", path: "/", id: 1 },
         { label: "Movies", path: "/movies", id: 1 },
-        { label: "Series", path: "/series", id: 2 },
         { label: "Books", path: "/books", id: 3 },
         { label: "Games", path: "/games", id: 4 },
         { label: "Animes", path: "/animes", id: 5 },

@@ -4,6 +4,7 @@ import LainLookingAbove from "./components/LainLookingAbove.tsx";
 import MoviesPage from "./pages/MoviesPage.tsx";
 import BooksPage from "./pages/BooksPage.tsx";
 import AnimesPage from "./pages/AnimesPage.tsx";
+import GamesPage from "./pages/GamesPage.tsx";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="/movies" element={<MoviesPage />}/>
           <Route path="/books" element={<BooksPage />}/>
           <Route path="/animes" element={<AnimesPage />}/>
+          <Route path="/games" element={<GamesPage />}/>
         </Routes>
         <LainLookingAbove />
       </div>
