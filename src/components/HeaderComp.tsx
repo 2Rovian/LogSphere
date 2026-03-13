@@ -17,8 +17,8 @@ function HeaderComp() {
         { label: "Series", path: "/series", id: 2 },
         { label: "Books", path: "/books", id: 3 },
         { label: "Games", path: "/games", id: 4 },
-        { label: "Anime", path: "/anime", id: 5 },
-    ]
+        { label: "Animes", path: "/animes", id: 5 },
+    ];   
 
     return (
         <header className="mx-7 mt-10 custom-border surface-color">
