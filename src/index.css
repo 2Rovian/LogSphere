@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 .background {
-  @apply bg-[#b1b1b1] min-h-screen;
+  @apply bg-[#a3a3a3] min-h-screen;
 }
 
 .surface-color {
-  @apply bg-[#787878];
+  @apply bg-[#717171];
 }
 
 .primary-color {
-  @apply bg-[#363636];
+  @apply bg-[#272727];
 }
 
 .accent-color {
@@ -18,10 +18,15 @@
 
 .text-color {
   @apply text-[#e9e9e9];
-}
+} 
 
 .responsive-div {
   @apply px-4 lg:px-0;
+}
+
+.custom-border {
+  @apply border-3 border-[#e9e9e9];
+  box-shadow: 8px 8px 0 rgb(74, 74, 74);
 }
 
 /* paleta dark moderno (mais escura) */

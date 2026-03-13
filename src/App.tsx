@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage.tsx";
+import LainLookingAbove from "./components/LainLookingAbove.tsx";
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />}/>
         </Routes>
+        <LainLookingAbove />
       </div>
      </BrowserRouter>  
   )
