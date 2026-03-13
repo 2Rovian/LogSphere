@@ -1,7 +1,7 @@
 
 function SidebarComp() {
   return (
-    <aside className="mr-7 hidden lg:flex flex-col w-[240px]  my-10 px-4 py-2 custom-border surface-color gap-6">
+    <aside className="mr-7 hidden lg:flex flex-col w-60  my-10 px-4 py-2 custom-border surface-color gap-6">
 
       {/* Profile */}
       <div className="flex gap-2  pb-2">
