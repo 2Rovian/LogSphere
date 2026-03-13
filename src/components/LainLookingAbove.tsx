@@ -7,7 +7,6 @@ export default function LainLookingAbove() {
             alt="lain" 
             
             className="fixed bottom-0 right-4 grayscale w-[200px] md:w-[300px]"
-
         />
     )
 }

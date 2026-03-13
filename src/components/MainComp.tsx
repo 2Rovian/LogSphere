@@ -1,8 +1,8 @@
-import HomeComp from "./HomeComp";
+import HomeComp from "./maincompfolder/HomeComp";
 
 function MainComp() {
   return (
-    <main className="mx-5 my-10 px-4 py-6 custom-border surface-color flex flex-col items-center text-center gap-4">
+    <main className="mx-7 my-10 px-4 py-6 custom-border surface-color flex flex-col items-center text-center gap-4">
       {/* <h2 className="text-2xl font-bold text-[#3a3a3a]">
         Track everything you watch, read or play
       </h2>

@@ -10,11 +10,12 @@ function HomeComp() {
 
     const buttons_array: buttons_array_props[] = 
     [
-        { label: "Movies", path: "Movies", id: 1 },
-        { label: "Series", path: "Series", id: 2 },
-        { label: "Books", path: "Books", id: 3 },
-        { label: "Games", path: "Games", id: 4 },
-        { label: "Anime", path: "Anime", id: 5 }
+        { label: "Movies", path: "/movies", id: 1 },
+        { label: "Series", path: "/series", id: 2 },
+        { label: "Books", path: "/books", id: 3 },
+        { label: "Games", path: "/games", id: 4 },
+        { label: "Anime", path: "/anime", id: 5 },
+        { label: "Lain", path: "/lain", id: 5 }
     ]
 
     return (
@@ -47,7 +48,7 @@ function HomeComp() {
                         </Link>
                     )
                 }
-                <button className="primary-outline">LainBtn</button>
+                {/* <button className="primary-outline">Lain</button> */}
                 {/* { label: "some_button", path: "/", id: 6 } */}
                 {/* <button className="primary-outline hover:bg-[#4a4a4a] hover:text-[#e9e9e9]">Movies</button>
         <button className="primary-outline">Series</button>
