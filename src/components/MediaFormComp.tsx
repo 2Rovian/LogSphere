@@ -16,8 +16,8 @@ function MediaFormComp({ closeModal }: closeModalProps) {
   const [review, setReview] = useState("");
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black/60 backdrop-blur-sm">
-      <div className="surface-color p-6 custom-border w-100">
+    <div className="fixed inset-0 flex items-center justify-center backdrop-blur-md">
+      <div className="bg-[#aeaeae] p-6 custom-border w-100">
         <button onClick={closeModal} className="mb-4 text-sm cursor-pointer">
           close
         </button>
@@ -74,7 +74,7 @@ function MediaFormComp({ closeModal }: closeModalProps) {
 
           <button
             type="submit"
-            className="primary-color text-color py-2 cursor-pointer custom-border"
+            className="primary-color text-color py-2 cursor-pointer "
           >
             Save
           </button>
