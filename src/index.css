@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+.background {
+  @apply bg-[#b1b1b1] min-h-screen;
+}
+
+.surface-color {
+  @apply bg-[#787878];
+}
+
+.primary-color {
+  @apply bg-[#363636];
+}
+
+.accent-color {
+  @apply bg-[#9ca3af];
+}
+
+.text-color {
+  @apply text-[#e9e9e9];
+}
+
+.responsive-div {
+  @apply px-4 lg:px-0;
+}
+
+/* paleta dark moderno (mais escura) */
+/* Background: #020617 */
+/* Surface:    #0F172A */
+/* Primary:    #1D4ED8 */
+/* Accent:     #16A34A */
+/* Text:       #E2E8F0 */
+/* Cor do fundo principal da aplicação (body, páginas). */
+/* Surface: #1E293B */
+/* Elementos sobre o fundo: cards, modais, inputs, navbar. */
+/* Primary: #3B82F6 */
+/* Ação principal: botões principais, links importantes, estados ativos. */
+/* Accent: #22C55E */
+/* Destaques secundários: tags, badges, sucesso, elementos de atenção. */
+/* Text: #E2E8F0 */
+/* Texto principal da interface. */
+/* std::cout << "***********************" << std::endl */
+
+
+/* paleta elegentante... falaro */
+/* Background: #020617 */
+/* Surface:    #111827 */
+/* Primary:    #6366F1 */
+/* Accent:     #22D3EE */
+/* Text:       #E5E7EB */
+
+/* paleta notion */
+/* Background: #FFFFFF */
+/* Surface:    #F1F5F9 */
+/* Primary:    #0F172A */
+/* Accent:     #3B82F6 */
+/* Text:       #020617 */
