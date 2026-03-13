@@ -1,6 +1,7 @@
-import HomeComp from "./maincompfolder/HomeComp";
+import HomeComp from "./main_comp_folder/HomeComp";
 import { useLocation } from "react-router-dom";
-import MoviesComp from "./maincompfolder/MoviesComp";
+import MoviesComp from "./main_comp_folder/MoviesComp";
+import BooksComp from "./main_comp_folder/BooksComp";
 
 function MainComp() {
     const url_path: string = useLocation().pathname;
@@ -8,6 +9,9 @@ function MainComp() {
     switch(url_path) {
         case "/movies":
             content = <MoviesComp />
+            break;
+        case "/books":
+            content = <BooksComp />
             break;
         default:
             content = <HomeComp />
