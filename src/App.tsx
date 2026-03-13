@@ -5,6 +5,7 @@ import MoviesPage from "./pages/MoviesPage.tsx";
 import BooksPage from "./pages/BooksPage.tsx";
 import AnimesPage from "./pages/AnimesPage.tsx";
 import GamesPage from "./pages/GamesPage.tsx";
+import NotFoundPage from "./pages/NotFoundPage.tsx";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/books" element={<BooksPage />}/>
           <Route path="/animes" element={<AnimesPage />}/>
           <Route path="/games" element={<GamesPage />}/>
+          <Route path="*" element={<NotFoundPage/>}/>
         </Routes>
         <LainLookingAbove />
       </div>
