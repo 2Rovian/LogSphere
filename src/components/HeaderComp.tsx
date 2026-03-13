@@ -19,11 +19,10 @@ function HeaderComp() {
         </h1>
 
         <div className="flex gap-2">
-          <button className="px-4 py-2 primary-color font-medium text-color cursor-pointer">
+          <button className="primary-button">
             Login
           </button>
-
-          <button className="px-4 py-2 primary-color font-medium text-color cursor-pointer">
+          <button className="primary-button">
             Register
           </button>
         </div>
