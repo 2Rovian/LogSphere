@@ -4,6 +4,7 @@ import MoviesComp from "./main_comp_folder/MoviesComp";
 import BooksComp from "./main_comp_folder/BooksComp";
 import AnimesComp from "./main_comp_folder/AnimesComp";
 import GamesComp from "./main_comp_folder/GamesComp";
+import UpdatesMainComp from "./main_comp_folder/UpdatesMainComp";
 
 function MainComp() {
     const url_path: string = useLocation().pathname;
@@ -20,6 +21,9 @@ function MainComp() {
             break;
         case "/games":
             content = <GamesComp />
+            break;
+        case "/updates":
+            content = <UpdatesMainComp />
             break;
         default:
             content = <HomeComp />
